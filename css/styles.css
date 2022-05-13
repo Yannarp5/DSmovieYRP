@@ -44,11 +44,11 @@ a, a:hover {
     color:unset;
 }
 
-."DSmovieYRP-contact-container" {
+.DSmovieYRP-contact-container {
     display: flex;
     align-items: center;
 }
 
-."DSmovieYRP-contact-container" img{
+.DSmovieYRP-contact-container img{
     margin-right: 10px;
 }
