@@ -5,6 +5,8 @@
     --color-primary:#4D41C0;
     --white: #FFFF;
     --text-gray: #4A4A4A
+    --text-light-gray:#AAAA
+
 }
 *{
     box-sizing:border-box
@@ -179,10 +181,46 @@ a, a:hover {
     align-items: center;
     justify-content: center;
     border-radius: 4px;
+    border: 0;
 }
 
 .DSmovieYRP-form-container {
-padding: 40px 0;
-max-width: 480px;
+    padding: 40px 0;
+    max-width: 480px;
+}
+
+.DSmovieYRP-form-description {
+    background-color: var(--white);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0 0 8px 8px;
+}
+.DSmovieYRP-form {
+    width: 100%;
+}
+
+.DSmovieYRP-form-description h3{
+    font-size: 13px;
+    font: weight 700px; 
+    margin-bottom: 20px;
+
+}
+.DSmovieYRP-form-group {
+    margin-bottom: 20px;
+}
+
+.DSmovieYRP-form-group label {
+    font-size: 12px;
+    color: var(--text-light-gray);
+}
+
+.DSmovieYRP-form-btn-container {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
 
